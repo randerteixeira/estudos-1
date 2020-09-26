@@ -1,0 +1,52 @@
+@charset "utf-8";
+body {
+    background-color: white;
+}
+
+.separador {
+    color: white;
+}
+
+.contentorglobal {
+    margin: 30px auto;
+    margin-top: 1px;
+    border: 5px solid black;
+}
+
+.contentornavegacao {
+    background-image: url('img/cabecalho.png');
+    margin-top: 20px;
+}
+
+.contentornavegacao a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+.contentornavegacao a:hover {
+    background-color: white;
+    color: black;
+}
+
+.exemplo {
+    margin-top: 20px;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+}
+
+.rodape {
+    padding: 90px 0px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    margin-top: 15px;
+}
+
+.titulorodape {
+    font-size: 2em;
+}
+
+.letraimg {
+    font-size: -2em;
+}
